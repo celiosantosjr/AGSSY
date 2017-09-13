@@ -9,20 +9,20 @@
 
 #### Stating libraries
 ######################
-protein=/home/celio/Desktop/AM_catalogue-master/libraries/ORFs_renamed.faa
-gene=/home/celio/Desktop/AM_catalogue-master/libraries/ORFs_renamed.fna
-abundance_profile=/home/celio/Desktop/AM_catalogue-master/libraries/abundance_profile.tsv.gz
-ab_header=/home/celio/Desktop/AM_catalogue-master/libraries/ab.header
-ext_py=/home/celio/Desktop/AM_catalogue-master/libraries/ext.py
-pfam=/home/celio/Desktop/AM_catalogue-master/libraries/pfam_anno.gz
-kegg=/home/celio/Desktop/AM_catalogue-master/libraries/kegg_anno.gz
-eggnog=/home/celio/Desktop/AM_catalogue-master/libraries/eggnog_anno.gz
-cog=/home/celio/Desktop/AM_catalogue-master/libraries/cog_anno.gz
-dbcan=/home/celio/Desktop/AM_catalogue-master/libraries/DBCAN_anno.gz
-uniprot=/home/celio/Desktop/AM_catalogue-master/libraries/uniprot_anno.gz
+protein=/path/to/AM_catalogue-master/libraries/ORFs_renamed.faa
+gene=/path/to/AM_catalogue-master/libraries/ORFs_renamed.fna
+abundance_profile=/path/to/AM_catalogue-master/libraries/abundance_profile.tsv.gz
+ab_header=/path/to/AM_catalogue-master/libraries/ab.header
+ext_py=/path/to/AM_catalogue-master/libraries/ext.py
+pfam=/path/to/AM_catalogue-master/libraries/pfam_anno.gz
+kegg=/path/to/AM_catalogue-master/libraries/kegg_anno.gz
+eggnog=/path/to/AM_catalogue-master/libraries/eggnog_anno.gz
+cog=/path/to/AM_catalogue-master/libraries/cog_anno.gz
+dbcan=/path/to/AM_catalogue-master/libraries/DBCAN_anno.gz
+uniprot=/path/to/AM_catalogue-master/libraries/uniprot_anno.gz
 phmmer=/usr/bin/phmmer
 nhmmer=/usr/bin/nhmmer
-parser=/home/celio/Desktop/AM_catalogue-master/libraries/parser.sh
+parser=/path/to/AM_catalogue-master/libraries/parser.sh
 ######################
 
 ###########################
