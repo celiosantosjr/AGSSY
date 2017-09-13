@@ -29,7 +29,9 @@ $ tar -zxvf AM_catalogue-master
 3. Type the following line: 
 
 $ sudo apt-get install dialog
+
 $ sudo ln -s /full/path/to/AM_catalogue.sh /usr/local/bin/AM_catalogue
+
 $ chmod +x /full/path/to/AM_catalogue.sh
 
 3. Change the path until the folder libraries in the first lines of the script
