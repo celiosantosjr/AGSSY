@@ -1,7 +1,7 @@
 # AGSSY
-Amazon Gene Search System
+Amazon Gene Catalogue Search System
 
-# AGSSY - AMAZON GENE CATALOGUE SEARCH SYSTEM
+--------------------------------------------------------------------
 
 **Célio Dias Santos Júnior, Flávio Henrique Silva, Ramiro Logares**
 
