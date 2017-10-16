@@ -24,15 +24,17 @@ The installation procedures are shown bellow:
 
 2. Decompress it using command: 
 
+```
 $ tar -zxvf AM_catalogue-master
+```
 
 3. Type the following line: 
 
-$ sudo apt-get install dialog
+```$ sudo apt-get install dialog
 
 $ sudo ln -s /full/path/to/AM_catalogue.sh /usr/local/bin/AM_catalogue
 
-$ chmod +x /full/path/to/AM_catalogue.sh
+$ chmod +x /full/path/to/AM_catalogue.sh```
 
 3. Change the path until the folder libraries in the first lines of the script
 
@@ -40,31 +42,35 @@ $ chmod +x /full/path/to/AM_catalogue.sh
 
 To start the system open the bash in the correct folder and insert the command to start the script:
 
-./AM_catalogue.sh
+```$ ./AM_catalogue.sh```
 
 Then select the option of your desire.
 
-*Searching by Key-words or access:*
+**A. Searching by Key-words or access:**
 
-To search in the PFAM database it is allowed to use key-words or PFAM code.
-To search in KEGG, COG and Uniprot database you should use KO, COG and GO numbers, respectivelly.
-To search in the DBCAN database you should use the families names used in the CAZY (e.g. GH9)
-To search in the EGGNOG database it is allowed, as PFAM, search key-words and EGGNOG families.
+A.1. To search in the PFAM database it is allowed to use key-words or PFAM code.
+
+A.2. To search in KEGG, COG and Uniprot database you should use KO, COG and GO numbers, respectivelly.
+
+A.3. To search in the DBCAN database you should use the families names used in the CAZY (e.g. GH9)
+
+A.4. To search in the EGGNOG database it is allowed, as PFAM, search key-words and EGGNOG families.
+
 The option of multiple DBs is used generally to retrieve annotation in several DBs for specific gene/protein or a list of genes/proteins.
 
-*Searching abundance profiles:*
+**B.Searching abundance profiles:**
 
 You should enter the name of the desired gene or a list of them and the system will retrieve a matrix where each line represent a gene and each column a site. The abundances are given as TPM. For more information about these sites, we recomend to read the original papers:
 
-Satinsky BM, et al. 2015. Metagenomic and metatranscriptomic inventories of the lower Amazon River, May 2011. Microbiome 3 (39): 1-8. doi:10.1186/s40168-015-0099-0
+- *Satinsky BM, et al. 2015. Metagenomic and metatranscriptomic inventories of the lower Amazon River, May 2011. Microbiome 3 (39): 1-8. doi:10.1186/s40168-015-0099-0*
 
-Toyama D, Kishi LT, Santos-Júnior CD, Soares-Costa A, et al. 2016. Metagenomics Analysis of Microorganisms in Freshwater Lakes of the Amazon Basin. Genome Announc. 4:e01440-e16. doi:10.1128/genomeA.01440-16.
+- *Toyama D, Kishi LT, Santos-Júnior CD, Soares-Costa A, et al. 2016. Metagenomics Analysis of Microorganisms in Freshwater Lakes of the Amazon Basin. Genome Announc. 4:e01440-e16. doi:10.1128/genomeA.01440-16.*
 
-Santos-Júnior CD, Kishi LT, Toyama D, Soares-Costa A, et al. 2017. Metagenome sequencing of prokaryotic microbiota collected from rivers in the Upper Amazon Basin. Genome Announc. 5: e01450-e16. doi:10.1128/genomeA.01450-16.
+- *Santos-Júnior CD, Kishi LT, Toyama D, Soares-Costa A, et al. 2017. Metagenome sequencing of prokaryotic microbiota collected from rivers in the Upper Amazon Basin. Genome Announc. 5: e01450-e16. doi:10.1128/genomeA.01450-16.*
 
-Toyama D, Santos-Júnior CD, Kishi LT, Oliveira TCS, Garcia JW, Sarmento H, Miranda FP,  Henrique-Silva F. 2017. A snapshot on prokaryotic diversity of the Solimões River basin (Amazon, Brazil). Genet. Mol. Res. 16 (2): gmr16029567. doi: 10.4238/gmr16029567
+- *Toyama D, Santos-Júnior CD, Kishi LT, Oliveira TCS, Garcia JW, Sarmento H, Miranda FP,  Henrique-Silva F. 2017. A snapshot on prokaryotic diversity of the Solimões River basin (Amazon, Brazil). Genet. Mol. Res. 16 (2): gmr16029567. doi: 10.4238/gmr16029567*
 
-*Homology search using query :*
+**C. Homology search using query :**
 
 This system still allows the user to search protein or nucleotide sequences against Amazon gene catalogue, through nhmmer or phmmer. The most important here is to know that this procedure takes a long time since the databases accounts alone with almost 4 million sequences and that these systems are heuristic and need to be human reviewed. The time of search will be increased with the size of query file and the computer capacities. After the search, the system parses the final hmmsearch table using an internal shell script. Protein searches are preferred.
 
@@ -96,7 +102,5 @@ We acknowledge to CAPES (Coordenadoria de Aperfeiçoamento de Pessoal de Nível 
 **To cite some usage of the searching system**
 
 Santos-Júnior, CD; Henrique-Silva, F; Logares, R. 2017. AGSSY - Amazon Gene Searching System. [Github link](https://github.com/celiosantosjr/AGSSY/). Accessed in: XXX.
-
-**To cite data or findings, cite our paper:**
 
 Santos-Júnior, CD; Henrique-Silva, F; Logares, R. 2017. Amazon basin gene catalogue: Uncovering the Amazonian biodiversity and biotechnological potential. (Non published yet).
