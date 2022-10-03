@@ -22,7 +22,7 @@ To use this system you will need:
 
 The installation procedures are shown bellow:
 
-1. Download the package
+1. Download the package from [Zenodo](https://zenodo.org/record/7117463)
 
 2. Decompress it using command: 
 
